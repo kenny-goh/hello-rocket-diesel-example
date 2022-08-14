@@ -1,0 +1,3 @@
+[global.databases]
+app_db = { url = "test.db" }
+
