@@ -81,7 +81,7 @@ pub async fn list(database: &Database) -> Result<Vec<Todo>, AppError> {
     let resp: Result<Vec<Todo>, DieselError> = database.run(|c| todos.load::<Todo>(c)).await;
     match resp {
         Ok(result) => Ok(result),
-        Err(_) => Err(AppError::DBError(String::from("Failed to create record."))),
+        Err(_) => Err(AppError::DBError(String::from("Failed to list record."))),
     }
 }
 
