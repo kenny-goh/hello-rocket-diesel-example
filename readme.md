@@ -19,7 +19,7 @@ using Rust is a viable strategy.
 ## Getting Started
 - Make sure you have Rust installed. Please refer to https://www.rust-lang.org/
 - Open your terminal
-- Check out this project by using the command: git clone git@github.com:kenny-goh/hello-diesel-rocket.git
+- Check out this project by using the command: git clone git@github.com:kenny-goh/hello-rocket-diesel-example.git
 - Navigate to the project folder
 - Type the following commands
 ```shell
